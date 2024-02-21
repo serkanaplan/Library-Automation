@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0545383-15B2-4F0F-9B7A-C9F213C6AA47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kotomasyon</RootNamespace>
+    <AssemblyName>kotomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frmgiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmgiris.Designer.cs">
+      <DependentUpon>Frmgiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmkitapislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmkitapislem.Designer.cs">
+      <DependentUpon>Frmkitapislem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmodunclistele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmodunclistele.Designer.cs">
+      <DependentUpon>Frmodunclistele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmsifredegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsifredegistir.Designer.cs">
+      <DependentUpon>Frmsifredegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmyonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmyonetici.Designer.cs">
+      <DependentUpon>Frmyonetici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmkullaniciislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmkullaniciislem.Designer.cs">
+      <DependentUpon>Frmkullaniciislem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmislem.Designer.cs">
+      <DependentUpon>Frmislem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Frmyykislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmyykislem.Designer.cs">
+      <DependentUpon>Frmyykislem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frmgiris.resx">
+      <DependentUpon>Frmgiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmkitapislem.resx">
+      <DependentUpon>Frmkitapislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmodunclistele.resx">
+      <DependentUpon>Frmodunclistele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsifredegistir.resx">
+      <DependentUpon>Frmsifredegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmyonetici.resx">
+      <DependentUpon>Frmyonetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmkullaniciislem.resx">
+      <DependentUpon>Frmkullaniciislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmislem.resx">
+      <DependentUpon>Frmislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frmyykislem.resx">
+      <DependentUpon>Frmyykislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controllers.csproj">
+      <Project>{adfbc46f-3186-4b55-90f3-ec4cf9fc0c71}</Project>
+      <Name>Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Models.csproj">
+      <Project>{7733e45e-4e65-4f0d-9dba-f74b249d8fbd}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\serka\Desktop\kütüphane otomasyonu\kotomasyon\Controller\bin\Debug\Controller.dll
+C:\Users\serka\Desktop\kütüphane otomasyonu\kotomasyon\Controller\bin\Debug\Controller.pdb
+C:\Users\serka\Desktop\kütüphane otomasyonu\kotomasyon\Controller\obj\Debug\Controllers.csproj.AssemblyReference.cache
+C:\Users\serka\Desktop\kütüphane otomasyonu\kotomasyon\Controller\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\serka\Desktop\kütüphane otomasyonu\kotomasyon\Controller\obj\Debug\Controller.dll
+C:\Users\serka\Desktop\kütüphane otomasyonu\kotomasyon\Controller\obj\Debug\Controller.pdb

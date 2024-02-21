@@ -1,0 +1,12 @@
+C:\Users\serkan\Desktop\kotomasyon\kotomasyon\Model\bin\Debug\Model.dll
+C:\Users\serkan\Desktop\kotomasyon\kotomasyon\Model\bin\Debug\Model.pdb
+C:\Users\serkan\Desktop\kotomasyon\kotomasyon\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\serkan\Desktop\kotomasyon\kotomasyon\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\serkan\Desktop\kotomasyon\kotomasyon\Model\obj\Debug\Model.dll
+C:\Users\serkan\Desktop\kotomasyon\kotomasyon\Model\obj\Debug\Model.pdb
+C:\Users\serkan\Desktop\kotomasyon\Model\bin\Debug\Model.dll
+C:\Users\serkan\Desktop\kotomasyon\Model\bin\Debug\Model.pdb
+C:\Users\serkan\Desktop\kotomasyon\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\serkan\Desktop\kotomasyon\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\serkan\Desktop\kotomasyon\Model\obj\Debug\Model.dll
+C:\Users\serkan\Desktop\kotomasyon\Model\obj\Debug\Model.pdb

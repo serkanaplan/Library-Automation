@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="kotomasyon.Frmgiris">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQwAhAAACgAABAAAQCAIAADgAAAAQoEgCAAAABCAAA=</HashCode>
+      <FileName>Frmgiris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Frmislem">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABEAAAAEACQAABYBABCRKAASAAA5gABAIKAMAAACAAA=</HashCode>
+      <FileName>Frmislem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Frmkitapislem">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>hAAQCAADCiBAABqAEACQLBASAKABgQABQJGAEEAABRA=</HashCode>
+      <FileName>Frmkitapislem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Frmkullaniciislem">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>tAAQAIQCAChEABgIAACMKBADCikgAABAABCAEQAABiA=</HashCode>
+      <FileName>Frmkullaniciislem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Frmodunclistele">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAACAAABIBAACKKAACACAAAEAAAAAAAgAAgAA=</HashCode>
+      <FileName>Frmodunclistele.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Frmsifredegistir">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACwAAQAACAAABAAAACAIBACABAIAAAAAOAAACBAAAA=</HashCode>
+      <FileName>Frmsifredegistir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Frmyonetici">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAEACQAABAEAACBIgACAMAoACAAAAAEAAACgAA=</HashCode>
+      <FileName>Frmyonetici.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Frmyykislem">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAQCABCAGBAAAAAAAGAIgACACAAABAgADEAEAAAAAA=</HashCode>
+      <FileName>Frmyykislem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Program">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Properties.Resources">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kotomasyon.Properties.Settings">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
